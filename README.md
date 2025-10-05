@@ -1,26 +1,25 @@
 <div align="center">
-<h1>Tarea 3</h1>
+  <h1><code>Tarea 3</code></h1>
+  <br>
 
-<br>
-
-<ol>
-  <li>Primero fui al directorio principal, revisé con pwd si estaba parado en ella y revisé qué directorios hay en ella.</li>
-  <li>Luego creé un directorio en ese directorio principal que se llame "Practica_Linux", revisé que quedara con ls -l.</li>
-  <li>Ingresé al directorio antes creado y creé otros dos directorios "Documentos" y "Backup", revisé que sí se crearon con ls.</li>
-  <li>Entré al directorio "Documentos" y creé un archivo "nota.txt" con touch, revisé que quedara con ls.</li>
-  <li>Después con nano, abrí el archivo "nota.txt" y lo modifiqué colocando un texto, lo guardé y me devolví a la consola.</li>
-  <li>Luego con cp, copié el archivo al directorio llamado "Backup", revisé que haya quedado con ls.</li>
-  <li>Siguiente a eso, en el directorio "Documentos" cambié el nombre del archivo de "nota.txt" a "nota_final.txt" con mv, revisé con ls.</li>
-  <li>Revisé si el directorio "Backup" estaba vacío, como no lo estaba, usé el comando rm -r para borrar el directorio con todo lo que tenga.</li>
-  <li>Vi el contenido del archivo "nota_final.txt" que está en el directorio "Documentos" con el comando cat.</li>
-  <li>Con chmod cambié los permisos de "nota_final.txt" para que solo el creador lo pueda leer y escribir con el número 600 (el permiso).</li>
-  <li>Desde el directorio principal busqué el archivo "nota_final.txt" con el comando find, nos aparecerá la ruta de ubicación del archivo.</li>
-  <li>Con el comando grep busqué una palabra que pueda estar en un archivo, pero no aparece el nombre del archivo, solo el contenido.</li>
-  <li>Miré los procesos (como un administrador de tareas), con el comando top.</li>
-  <li>Usé el comando sleep para que el terminal deje de funcionar en tantos segundos le ponga, pude terminar la función del sleep con kill y el PID en otro terminal.</li>
-  <li>Actualicé el software que tenga nuevas versiones con el comando sudo apt update, me pidió la contraseña para dar permisos.</li>
-  <li>Instalé el paquete cowsay para usarlo después, con el comando sudo apt install.</li>
-  <li>Creé un archivo tipo script (contiene código) con nano, y le agregué código para después ejecutarlo en el terminal.</li>
-  <li>Dándole el permiso que requiere para que el archivo pueda ejecutarse con chmod, y llamándolo, se ejecuta el contenido del archivo.</li>
-</ol>
+  <ol>
+    <li>Primero fui al <b>directorio principal</b> y con <code>pwd</code> verifiqué que estuviera ubicado correctamente en él. Luego revisé qué directorios contenía usando <code>ls</code>.</li>
+    <li>Después creé un directorio llamado <b>"Practica_Linux"</b> dentro del directorio principal y comprobé su creación con <code>ls -l</code>.</li>
+    <li>Ingresé al nuevo directorio y creé dos carpetas adicionales llamadas <b>"Documentos"</b> y <b>"Backup"</b>. Verifiqué que ambas se hubieran creado correctamente con <code>ls</code>.</li>
+    <li>Entré en el directorio <b>"Documentos"</b> y creé un archivo llamado <b>"nota.txt"</b> usando <code>touch</code>, luego comprobé su existencia con <code>ls</code>.</li>
+    <li>Con <code>nano</code> abrí el archivo <b>"nota.txt"</b>, escribí un texto dentro, lo guardé y regresé a la consola.</li>
+    <li>Usé el comando <code>cp</code> para <b>copiar el archivo</b> al directorio <b>"Backup"</b> y verifiqué la copia con <code>ls</code>.</li>
+    <li>En el directorio <b>"Documentos"</b> cambié el nombre del archivo de <b>"nota.txt"</b> a <b>"nota_final.txt"</b> usando <code>mv</code> y revisé el cambio con <code>ls</code>.</li>
+    <li>Comprobé si el directorio <b>"Backup"</b> estaba vacío. Como no lo estaba, lo eliminé completamente (junto con su contenido) usando <code>rm -r</code>.</li>
+    <li>Visualicé el contenido del archivo <b>"nota_final.txt"</b> en el directorio <b>"Documentos"</b> con el comando <code>cat</code>.</li>
+    <li>Con <code>chmod</code> cambié los <b>permisos del archivo</b> para que solo el creador pudiera leer y escribir, asignándole el permiso <b>600</b>.</li>
+    <li>Desde el directorio principal, busqué el archivo <b>"nota_final.txt"</b> con el comando <code>find</code>, el cual muestra la ruta completa donde se encuentra.</li>
+    <li>Usé el comando <code>grep</code> para buscar una palabra específica dentro de un archivo. Este comando muestra las coincidencias encontradas, sin mostrar el nombre del archivo.</li>
+    <li>Visualicé los <b>procesos activos</b> (como si fuera un administrador de tareas) utilizando el comando <code>top</code>.</li>
+    <li>Probé el comando <code>sleep</code>, que pausa el terminal durante la cantidad de segundos que uno indique. Luego interrumpí su ejecución desde otro terminal usando <code>kill</code> junto con el <b>PID</b>.</li>
+    <li>Actualicé el software del sistema con <code>sudo apt update</code>, ingresando la contraseña cuando se solicitó para otorgar permisos de administrador.</li>
+    <li>Instalé el paquete <b>cowsay</b> con el comando <code>sudo apt install cowsay</code> para poder usarlo más adelante.</li>
+    <li>Creé un <b>archivo tipo script</b> (que contiene código ejecutable) utilizando <code>nano</code>, y añadí dentro las líneas de código necesarias para su ejecución.</li>
+    <li>Finalmente, le di permisos de ejecución con <code>chmod</code> y lo ejecuté desde el terminal, comprobando que el script funcionara correctamente.</li>
+  </ol>
 </div>
