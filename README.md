@@ -1,5 +1,5 @@
 <div align="center">
-  <h1><code>Tarea 3</code></h1>
+  <h1>Tarea 3</h1>
   <br>
 
   <ol>
